@@ -135,5 +135,3 @@ How to test low-level software thoroughly
 ##Disclaimer 
 This project is an educational implementation of a SIC/XE assembler for learning purposes.
 
-## Project Structure
-
