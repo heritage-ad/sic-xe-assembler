@@ -101,7 +101,11 @@ output_listing.txt
 ## How to Run
 
 ```bash 
-python main.py test_programs/functions.txt
+# Assemble all sample files
+python main.py
+
+# Assemble specific file
+python main.py examples/basic.txt
 ```
 
 ## Outputs:
