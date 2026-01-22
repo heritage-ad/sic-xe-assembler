@@ -1,0 +1,47 @@
+0000	COPY      START     0         
+0000	                              
+0003	                              
+0006	          BASE      LENGTH    
+0009	                              
+000C	          LDA       #10       0120FFB
+000F	                              
+0012	          COMP      #0        A120FEB
+0015	                              
+0018	                              
+001B	J         CLOOP     .Loop     
+001E	                              
+0021	          STA       BUFFER    3320FDC
+0024	                              
+0027	          STA       LENGTH    3320FD6
+002A	                              
+002D	                              
+0030	EOF       BYTE      C'EOF'    
+0033	RETADR    RESW      1         
+0036	                              
+0039	                              
+003C	                              
+003F	                              
+0042	                              
+0045	          +LDT      #4096     1D11001000
+0048	                              
+004B	                              
+004E	                              
+0051	                              
+0054	                              
+0057	                              
+005A	                              
+005D	          JLT       RLOOP     E320FA0
+0060	                              
+0063	                              
+0066	                              
+0069	                              
+006C	          LDT       LENGTH    1D320F91
+006F	                              
+0072	                              
+0075	                              
+0078	                              
+007B	                              
+007E	          JLT       WLOOP     E320F7F
+0081	                              
+0084	                              
+0087	          END       FIRST     
